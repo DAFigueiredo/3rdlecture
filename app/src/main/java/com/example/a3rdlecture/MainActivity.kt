@@ -8,9 +8,10 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-        //variables
+        //Variables
 
-        //integer
+
+        //Integer
 
         var x = 5
         val y = 4
@@ -29,7 +30,8 @@ class MainActivity : AppCompatActivity() {
 
         val myInteger : Int = 5
 
-        //double & float
+
+        //Double & Float
 
         val pi = 3.14
 
@@ -41,7 +43,8 @@ class MainActivity : AppCompatActivity() {
 
         println(result2)
 
-        //string
+
+        //String
 
         val name = "John"
         val surname = "Doe"
@@ -52,12 +55,14 @@ class MainActivity : AppCompatActivity() {
 
         val myName : String = "Jane"
 
-        //boolean
+
+        //Boolean
 
         var isAlive : Boolean = true
         isAlive = false
 
-        //arrays
+
+        //Arrays
 
         val myArray = arrayOfNulls<String>(4)
 
@@ -75,7 +80,8 @@ class MainActivity : AppCompatActivity() {
         myNumberArray.set(2,35)
         println(myNumberArray[2])
 
-        //list
+
+        //List
 
         val myFriend = arrayListOf<String>()
 
@@ -85,9 +91,20 @@ class MainActivity : AppCompatActivity() {
         println(myFriend)
 
         myFriend.add(1,"Jess")
-
+        myFriend.add("Jack")
         println(myFriend)
 
-       
+
+       //Set
+
+        val mySet = HashSet<String>()
+
+        mySet.add("Jack")
+        mySet.add("Jack")
+
+        println(mySet.size)
+        
+
+
     }
 }
