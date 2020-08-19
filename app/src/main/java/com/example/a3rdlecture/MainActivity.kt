@@ -18,7 +18,7 @@ class MainActivity : AppCompatActivity() {
 
         x = 6
 
-        println(x * y)
+        //println(x * y)
 
         var age = 20
 
@@ -26,7 +26,7 @@ class MainActivity : AppCompatActivity() {
 
         val result = age * 5 / 4
 
-        println(result)
+        //println(result)
 
         val myInteger : Int = 5
 
@@ -41,7 +41,7 @@ class MainActivity : AppCompatActivity() {
 
         val result2 = age2 * 5 / 4
 
-        println(result2)
+        //println(result2)
 
 
         //String
@@ -51,7 +51,7 @@ class MainActivity : AppCompatActivity() {
 
         val fullname = name + " " + surname
 
-        println(fullname)
+        //println(fullname)
 
         val myName : String = "Jess"
 
@@ -71,14 +71,14 @@ class MainActivity : AppCompatActivity() {
         myArray [2] = "Jim"
         myArray [3] = "Joan"
 
-        println(myArray[2])
+        //println(myArray[2])
 
 
         val myNumberArray = intArrayOf(10,20,30,40,50)
 
-        println(myNumberArray.size)
+        //println(myNumberArray.size)
         myNumberArray.set(2,35)
-        println(myNumberArray[2])
+        //println(myNumberArray[2])
 
 
         //List
@@ -88,11 +88,11 @@ class MainActivity : AppCompatActivity() {
         myFriend.add("Jack")
         myFriend.add("Jim")
 
-        println(myFriend)
+        //println(myFriend)
 
         myFriend.add(1,"Jess")
         myFriend.add("Jack")
-        println(myFriend)
+        //println(myFriend)
 
 
        //Set
@@ -102,7 +102,7 @@ class MainActivity : AppCompatActivity() {
         mySet.add("Jack")
         mySet.add("Jack")
 
-        println(mySet.size)
+       //println(mySet.size)
 
 
         //Map
@@ -112,8 +112,35 @@ class MainActivity : AppCompatActivity() {
         myHashMap.put("name", "Jack")
         myHashMap.put("instrument", "Guitar")
 
-        println(myHashMap["instrument"])
-        
+        //println(myHashMap["instrument"])
+
+
+        //Operators
+
+        var m = 5
+        println(m)
+        m = m + 1
+        println(m)
+        m++
+        println(m)
+        m--
+        println(m)
+
+        var n = 4
+
+        println(m>n)
+        println(n>n)
+
+        //>
+        //<
+        //>=
+        //<=
+        //== "if is equal"
+        //!= "different
+        //&& "and"
+        //|| "or"
+
+
 
     }
 }
