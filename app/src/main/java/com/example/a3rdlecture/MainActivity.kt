@@ -118,18 +118,18 @@ class MainActivity : AppCompatActivity() {
         //Operators
 
         var m = 5
-        println(m)
+        //println(m)
         m = m + 1
-        println(m)
+        //println(m)
         m++
-        println(m)
+        //println(m)
         m--
-        println(m)
+        //println(m)
 
         var n = 6
 
-        println(m>n)
-        println(n>m)
+        //println(m>n)
+        //println(n>m)
 
         //>
         //<
@@ -144,14 +144,14 @@ class MainActivity : AppCompatActivity() {
         //if
 
         if (m>n) {
-            println("m is greater than n")
+            //println("m is greater than n")
         } else if (n>m) {
-            println("n is greater than m")
+            //println("n is greater than m")
         } else {
-            println("m = n")
+            //println("m = n")
         }
 
-        
+
         //Switch
 
         val day = 6
@@ -180,9 +180,36 @@ class MainActivity : AppCompatActivity() {
 
         }
 
-        println(dayString)
+        //println(dayString)
 
 
+        //For loops
+
+        val myNumbers = intArrayOf(12,15,18,21,24)
+
+        val q = myNumbers[0] / 3 * 5
+        //println(q)
+
+
+        for (number in myNumbers) {
+            val z = number / 3 * 5
+            //println(z)
+        }
+
+        //println("-----")
+
+        for (i in myNumbers.indices) {
+            val y = myNumbers[i] / 3 * 5
+            //println(y)
+        }
+
+        //println("-----")
+
+        for (a in 0..5) {
+            val b = a * 2
+            //println(b)
+        }
+        
 
     }
 }
