@@ -74,7 +74,20 @@ class MainActivity : AppCompatActivity() {
         println(myNumberArray.size)
         myNumberArray.set(2,35)
         println(myNumberArray[2])
-        
 
+        //list
+
+        val myFriend = arrayListOf<String>()
+
+        myFriend.add("Jack")
+        myFriend.add("Jim")
+
+        println(myFriend)
+
+        myFriend.add(1,"Jess")
+
+        println(myFriend)
+
+       
     }
 }
