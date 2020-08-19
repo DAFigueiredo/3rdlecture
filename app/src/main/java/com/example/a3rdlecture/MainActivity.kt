@@ -37,5 +37,21 @@ class MainActivity : AppCompatActivity() {
 
         println(result2)
 
+        //string
+
+        val name = "John"
+        val surname = "Doe"
+
+        val fullname = name + " " + surname
+
+        println(fullname)
+
+        //boolean
+
+        var isAlive = true
+        isAlive = false
+
+        
+
     }
 }
