@@ -188,26 +188,37 @@ class MainActivity : AppCompatActivity() {
         val myNumbers = intArrayOf(12,15,18,21,24)
 
         val q = myNumbers[0] / 3 * 5
-        println(q)
+        //println(q)
 
 
         for (number in myNumbers) {
             val z = number / 3 * 5
-            println(z)
+            //println(z)
         }
 
-        println("-----")
+        //println("-----")
 
         for (i in myNumbers.indices) {
             val y = myNumbers[i] / 3 * 5
-            println(y)
+            //println(y)
         }
 
-        println("-----")
+        //println("-----")
 
         for (a in 0..5) {
             val b = a * 2
             println(b)
+        }
+
+        println("-----")
+        //while loop
+
+        var j = 0
+
+        while (j<=5) {
+            val x = j * 2
+            println(x)
+            j++
         }
 
 
