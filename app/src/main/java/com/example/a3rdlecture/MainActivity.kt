@@ -10,17 +10,32 @@ class MainActivity : AppCompatActivity() {
 
         //variables
 
-        val x = 5
+        //integer
+
+        var x = 5
         val y = 4
+
+        x = 6
 
         println(x * y)
 
-        val age = 20
+        var age = 20
+
+        age = 23
 
         val result = age * 5 / 4
 
         println(result)
 
+        //double & float
+
+        val pi = 3.14
+
+        val age2 = 23.0
+
+        val result2 = age2 * 5 / 4
+
+        println(result2)
 
     }
 }
