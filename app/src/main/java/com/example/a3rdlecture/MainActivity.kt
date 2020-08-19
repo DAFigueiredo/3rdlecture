@@ -46,14 +46,14 @@ class MainActivity : AppCompatActivity() {
 
         //String
 
-        val name = "John"
+        val name = "Jack"
         val surname = "Doe"
 
         val fullname = name + " " + surname
 
         println(fullname)
 
-        val myName : String = "Jane"
+        val myName : String = "Jess"
 
 
         //Boolean
@@ -103,8 +103,17 @@ class MainActivity : AppCompatActivity() {
         mySet.add("Jack")
 
         println(mySet.size)
-        
 
+
+        //Map
+
+        val myHashMap = HashMap<String, String>()
+
+        myHashMap.put("name", "Jack")
+        myHashMap.put("instrument", "Guitar")
+
+        println(myHashMap["instrument"])
+        
 
     }
 }
